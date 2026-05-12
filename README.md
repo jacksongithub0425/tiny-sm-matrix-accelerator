@@ -1,6 +1,8 @@
+#note **Come to this after the FPGA Accelerator
+
 # tiny-sm-matrix-accelerator
 
-A study-scale, SM-inspired compute core on a Zynq-7020, built around a single
+SM-inspired compute core on a Zynq-7020, built around a single
 Tensor-Core-like INT8 MMA unit (`mma.m8n8k16.s8.s8.s32`). The goal is not to
 reproduce a commercial GPU or win a TOPS benchmark. The goal is to implement
 and measure the micro-architectural mechanisms that make GPU-style matrix
